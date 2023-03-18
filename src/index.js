@@ -1,5 +1,6 @@
 import loadPage from './loader';
 import loadHome from './home';
+import loadMenu from './menu';
 
 init();
 
@@ -10,6 +11,7 @@ function changeTab(){
     const reservationBtn = document.getElementById('reservation');
     const contactBtn = document.getElementById('contact');
     homeBtn.addEventListener('click', loadHome);
+    menuBtn.addEventListener('click', loadMenu);
 }
 
 function init(){

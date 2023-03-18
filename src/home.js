@@ -1,4 +1,5 @@
 import homeImg from './asset/home.jpg'
+
 function createHome(){
     const home = document.createElement('div');
     home.setAttribute('id', 'home');
